@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+header{
+    /* position:fixed;
+    top:2.5vw;
+    width:95vw;
+    right:2.5vw; */
+
+    background-color: #35382e;
+    margin:10px;
+    padding-right:30px;
+    
+}
+ header li{
+   
+    display: inline;
+    list-style: none;
+    /* padding:20px; */
+}
+ nav ul{
+    display: grid;
+    grid-template-columns: auto repeat(4,100px);
+    /* place-items: center; */
+    column-gap: 10px;
+    padding:20px;
+}
+nav li{
+    /* margin-left:30px; */
+    text-align: end;
+}
+nav h1{
+    text-align: start;
+    /* font-variant: small-caps; */
+}
+
+nav a{
+    color:white;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 2fr auto auto;
+    
+}
+.profile-section{
+    background-color: #fb795f;
+    display: grid;
+    grid-template-rows: 80px auto;
+    /* grid-auto-columns: 200px; */
+    gap:30px;
+    align-content: start;
+    padding:15px;
+    padding-bottom: 100px;
+}
+.intro-content{
+    border: solid black 1px;
+    margin:100px;
+    margin-bottom: 150px;
+    text-align: center;
+    justify-self:center;
+    padding:25px;
+    color:white;
+    background-color: #35382e;
+}
+.intro-content h2{
+    margin-bottom: 10px;
+    color:#fb795f;
+    
+}
+.intro-content p{
+    line-height: 1.5;
+}
+
+
+.projects-section{
+    background-color: #ede6e2;
+    display: grid;
+    grid-template-rows: 50px auto;
+    gap:10px;
+    place-items: center;
+    padding:20px;
+    padding-bottom:50px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-auto-rows:auto;
+    gap:20px;
+}
+.project-one,.project-two,.project-three{
+    border:solid rgba(0, 0, 0, 0.3) 1px;
+    padding:20px;
+    display: grid;
+    grid-template-rows: auto 50px auto;
+}
+.projects h4{
+    color:#fb795f;
+    margin-bottom: 10px;
+}
+.projects a{
+    background-color:#fb795f;
+    color:white;
+    
+    padding: 10px 50px;
+    margin-top:20px;
+    text-align: center;
+    
+}
+.projects p{
+    margin-bottom: 20px;
+}
+.experience-section{
+    background-color: #5bc3eb;
+    display: grid;
+    grid-template-rows: 50 repeat(4,auto);
+    place-items: center;
+    gap:20px;
+    padding:20px;
+    padding-bottom:50px;
+
+}
+.experience-one,.experience-two,.experience-three,.experience-four{
+    display:grid;
+    grid-template-columns: auto 200px 200px;
+    gap:20px;
+    place-items: center;
+    background-color: #ede6e2;
+    padding:20px;
+}
+.experience-header{
+    padding:15px;
+    margin-top:20px;
+}
+.experience-section a{
+    color:black;
+}
+footer{
+    background-color: #35382e;
+    text-align: center;
+    padding:20px;
+}
+footer a{
+    
+    color:#ede6e2;
+   
+}
